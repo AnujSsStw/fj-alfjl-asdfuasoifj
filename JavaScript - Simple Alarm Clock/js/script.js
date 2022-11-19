@@ -3,6 +3,7 @@ sound.src = "alarm.mp3";
 var timer;
 
 function setAlarm(el) {
+  console.log(el);
   var time = document.getElementById("alarmTime").valueAsNumber;
   if (isNaN(time)) {
     alert("Invalid DateTime");
